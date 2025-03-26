@@ -1,0 +1,14 @@
+<div class="container">
+
+    <form>
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email" [(ngModel)]="baseUsuario.email">
+
+        <label for="senha">Senha:</label>
+        <input type="password" id="senha" name="senha" [(ngModel)]="baseUsuario.senha">
+
+        <button (click)="login()">Enviar Login</button>
+    </form>
+
+
+</div>

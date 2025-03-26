@@ -1,0 +1,15 @@
+<form id="forms">
+
+    <h1>Cadastro</h1>
+    
+    <label for="nome">Nome</label>
+    <input name="nome" id="nome" type="text" [(ngModel)]="cadastro.nome">
+
+    <label for="email">Email</label>
+    <input name="email" id="email" type="text" [(ngModel)]="cadastro.email">
+
+    <label for="senha">Senha</label>
+    <input name="senha" id="senha" type="password" [(ngModel)]="cadastro.senha">
+   
+    <button (click)="cadastrar()">Cadastrar</button>
+</form>
